@@ -1,16 +1,16 @@
-# 📘 Git Best Practices & Guide
+# Guide: Git Commands
 
-## 📌 Introduction
+## 🔹 Introduction
 Git is a powerful version control system that helps developers collaborate and track changes efficiently. This guide covers essential Git commands, best practices, and tips to enhance your workflow.
 
 ---
 
-## ⚙️ Initial Setup
+## 🔹 Initial Setup
 
-### 🔹 Install Git
+### Install Git
 Download and install Git from [git-scm.com](https://git-scm.com/).
 
-### 🔹 Configure Git
+### Configure Git
 ```sh
 # Set up your username and email (important for commit history)
 git config --global user.name "Your Name"
@@ -22,7 +22,7 @@ git config --list
 
 ---
 
-## 🔄 Basic Git Workflow
+## 🔹 Basic Git Workflow
 
 ### 1️⃣ Clone a Repository
 ```sh
@@ -57,56 +57,56 @@ git pull origin <branch>
 
 ---
 
-## 🌿 Working with Branches
+## 🔹 Working with Branches
 
-### 🔹 Create a New Branch
+### Create a New Branch
 ```sh
 git branch <new-branch>
 ```
 
-### 🔹 Switch to a Branch
+### Switch to a Branch
 ```sh
 git checkout <branch>
 ```
 
-### 🔹 Create & Switch to a Branch
+### Create & Switch to a Branch
 ```sh
 git checkout -b <new-branch>
 ```
 
-### 🔹 Merge Branches
+### Merge Branches
 ```sh
 git checkout main
 git merge <branch>
 ```
 
-### 🔹 Delete a Branch
+### Delete a Branch
 ```sh
 git branch -d <branch>
 ```
 
 ---
 
-## 🚀 Advanced Git Commands
+## 🔹 Advanced Git Commands
 
-### 🔄 Undoing Changes
+### Undoing Changes
 ```sh
 git checkout -- <file>   # Discard changes in working directory
 git reset HEAD <file>    # Unstage a file
 git reset --hard HEAD    # Reset to last commit
 ```
 
-### 🔹 Rebase (Rewriting History)
+### Rebase (Rewriting History)
 ```sh
 git rebase main
 ```
 
-### 🔹 Cherry-pick (Apply Specific Commits)
+### Cherry-pick (Apply Specific Commits)
 ```sh
 git cherry-pick <commit-hash>
 ```
 
-### 🔹 Stash Changes
+### Stash Changes
 ```sh
 git stash           # Save uncommitted changes
 git stash pop       # Apply stashed changes
@@ -115,7 +115,7 @@ git stash list      # View stashed changes
 
 ---
 
-## ✅ Best Practices
+## 🔹 Best Practices
 
 - Use **meaningful commit messages**
 - Keep branches **small and focused**
@@ -126,7 +126,7 @@ git stash list      # View stashed changes
 
 ---
 
-## 📚 Additional Resources
+## 🔹 Additional Resources
 
 - [Official Git Documentation](https://git-scm.com/doc)
 - [GitHub Learning Lab](https://lab.github.com/)
