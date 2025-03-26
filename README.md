@@ -1,4 +1,4 @@
-# 📖 Guide: Git Commands
+# 📖 Guide: Git Intro
 
 ## 🔹 Introduction
 Git is a powerful version control system that helps developers collaborate and track changes efficiently. This guide covers essential Git commands, best practices, and tips to enhance your workflow.
