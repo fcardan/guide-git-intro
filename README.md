@@ -68,15 +68,28 @@ git branch <new-branch>
 ```sh
 git checkout <branch>
 ```
+OR
+```sh
+git switch <branch>
+```
 
 ### Create & Switch to a Branch
 ```sh
 git checkout -b <new-branch>
 ```
+OR
+```sh
+git switch -c <new-branch>
+```
 
 ### Merge Branches
 ```sh
 git checkout main
+git merge <branch>
+```
+OR
+```sh
+git switch main
 git merge <branch>
 ```
 
