@@ -20,6 +20,12 @@ git config --global user.email "your.email@example.com"
 git config --list
 ```
 
+### Init
+```sh
+# Turn an existing directory into a git repository
+git init
+```
+
 ---
 
 ## 🔹 Basic Git Workflow
