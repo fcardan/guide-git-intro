@@ -12,8 +12,10 @@ Download and install Git from [git-scm.com](https://git-scm.com/).
 
 ### Configure Git
 ```sh
-# Set up your username and email (important for commit history)
+# Sets the name you want attached to your commit transactions
 git config --global user.name "Your Name"
+
+# Sets the email you want attached to your commit transactions
 git config --global user.email "your.email@example.com"
 
 # Verify configuration
