@@ -8,7 +8,19 @@ Git is a powerful version control system that helps developers collaborate and t
 ## 🔹 Initial Setup
 
 ### Install Git
-Download and install Git from [git-scm.com](https://git-scm.com/).
+Download and install Git:
+
+Git for All Platforms
+[git-scm.com](http://git-scm.com)
+
+GitHub for Windows
+[https://windows.github.com](https://windows.github.com)
+
+GitHub for Mac
+[https://mac.github.com](https://mac.github.com)
+
+Git distributions for Linux and POSIX systems are available on
+the official Git SCM web site.
 
 ### Configure Git
 ```sh
